@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrueColors</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.0.0/dist/tailwind.min.css" rel="stylesheet">
+    <link href="./dist/output.css" rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+
+<body id="pageBody" class="bg-gray-100 flex justify-center items-center h-screen">
+    <div class="bg-white p-8 rounded-lg shadow-xl w-full max-w-md">
+        <h1 class="text-2xl font-bold text-gray-700 mb-6 text-center">TrueColors</h1>
+
+        <div class="mb-4">
+            <label class="block text-gray-600 mb-2 font-semibold" for="rgb">RGB:</label>
+            <input id="rgb" type="text" class="w-full p-2 border rounded-md" placeholder="Ex: 255, 0, 0">
+        </div>
+
+        <div class="mb-4">
+            <label class="block text-gray-600 mb-2 font-semibold" for="cmyk">CMYK:</label>
+            <input id="cmyk" type="text" class="w-full p-2 border rounded-md" placeholder="Ex: 0, 1, 1, 0">
+        </div>
+
+        <div class="mb-4">
+            <label class="block text-gray-600 mb-2 font-semibold" for="hsl">HSL:</label>
+            <input id="hsl" type="text" class="w-full p-2 border rounded-md" placeholder="Ex: 0, 100%, 50%">
+        </div>
+
+        <div class="mb-4">
+            <label class="block text-gray-600 mb-2 font-semibold" for="hsv">HSV:</label>
+            <input id="hsv" type="text" class="w-full p-2 border rounded-md" placeholder="Ex: 0, 100%, 100%">
+        </div>
+
+        <div class="mb-4">
+            <label class="block text-gray-600 mb-2 font-semibold" for="hex">HEX:</label>
+            <input id="hex" type="text" class="w-full p-2 border rounded-md" placeholder="Ex: #ff0000">
+        </div>
+    </div>
+</body>
+
+</html>
