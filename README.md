@@ -73,6 +73,14 @@
         </sub>
       </a>
     </td>
+          <td align="center">
+      <a href="#">
+        <img src="https://avatars.githubusercontent.com/celycodes" width="100px;" alt="Foto de Celycodes"/><br>
+        <sub>
+          <b>CelyCodes</b>
+        </sub>
+      </a>
+    </td>
    </tr>
    </table>
    </div>
