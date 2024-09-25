@@ -29,7 +29,7 @@
 
    ```
    - Clone esse repositório:
-   $ git clone https://github.com/celenny/TrueColors/
+   $ git clone https://github.com/celenny/TrueColors.git
 
    - Entre no diretório:
    $ cd TrueColors
